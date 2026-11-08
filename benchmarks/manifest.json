@@ -1,0 +1,28 @@
+{
+  "config": {
+    "base_seed": 20260101,
+    "bootstrap_iters": 5000,
+    "n_datasets": 30,
+    "perm_iters": 10000,
+    "spec": {
+      "channel_hetero_fraction": 0.3,
+      "drift_frac_high": 0.6,
+      "drift_frac_low": 0.42,
+      "mix_hetero_fraction": 0.45,
+      "n_allowed": 4,
+      "n_customers": 60,
+      "n_null": 4,
+      "n_range": 4,
+      "n_referential": 4,
+      "n_rows": 500,
+      "n_type": 4,
+      "n_unique": 4,
+      "sample_size": 16
+    }
+  },
+  "dataset_checksum": "083027f5253881c0f7a8af07b0282d79669a636ad71f714f13419a3a5f136a5a",
+  "git_sha": "n/a",
+  "numpy": "2.5.4",
+  "platform": "Linux-6.18.44-fc-v242-x86_64-with-glibc2.39",
+  "python": "3.13.18"
+}
